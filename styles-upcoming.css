@@ -1,0 +1,50 @@
+/* style team  */
+.match-section {
+    margin: 80px 4%;
+    display: grid;
+    grid-template-columns: 280px repeat(1, 1fr);
+    grid-gap: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid whitesmoke;
+    border-radius: 7px;
+    padding: 20px 10px;
+
+}
+
+.team-vs-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.match-info {
+    text-align: center;
+}
+
+.match-info .team-name {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.match-info p {
+    margin-top: 0px;
+    font-size: 13px;
+    color: #4D4D4D;
+}
+
+.vs {
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 800;
+}
