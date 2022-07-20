@@ -41,8 +41,8 @@ body {
 
 .top-banner-img img {
 
-    width: 550px;
-    height: 550px;
+    width: 500px;
+    height: 500px;
 
 
 }
@@ -76,6 +76,8 @@ body {
     border: none;
 }
 
+
+
 .menu-button:focus {
     background-color: #DD0000;
 }
@@ -106,4 +108,57 @@ body {
     font-size: 16px;
     font-weight: 700;
     padding: 3px 8px;
+}
+
+/* footer section  */
+.footer-section {
+    padding: 50px;
+    background-color: #161616;
+    color: white;
+}
+
+.footer-head {
+    text-align: center;
+    font-weight: 800;
+
+}
+
+.footer-section hr {
+    width: 90%;
+
+
+
+}
+
+.footer-link {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-link .link {
+    font-size: 14 px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.social-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.ancor {
+    display: inline-block;
+}
+
+
+.link-name {
+    color: aliceblue;
+
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
 }
