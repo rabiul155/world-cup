@@ -52,6 +52,26 @@ body {
     margin: 80px 4%;
 }
 
+.blog-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.menu-button {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin: 20px;
+    border: none;
+}
+
+
+
 .blog-iteam {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
