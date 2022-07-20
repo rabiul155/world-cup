@@ -6,7 +6,7 @@ body {
 }
 
 .top-banner {
-    margin: 20px 50px;
+    margin: 20px 4%;
     display: flex;
     background-color: #161616;
     justify-content: space-between;
@@ -41,8 +41,39 @@ body {
 
 .top-banner-img img {
 
-    width: 570px;
-    height: 570px;
+    width: 550px;
+    height: 550px;
 
 
+}
+
+/* main section  */
+.main-section {
+    margin: 80px 4%;
+}
+
+.blog-iteam {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.blog img {
+    height: 170px;
+    width: 300px;
+}
+
+.blog-info .view-time {
+    color: rgb(199, 193, 193);
+    background-color: white;
+}
+
+.blog-info .view-time span {
+    margin-right: 20px;
+}
+
+.blog-button {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 3px 8px;
 }
