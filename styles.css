@@ -105,6 +105,10 @@ body {
     background-color: white;
 }
 
+.active {
+    background-color: #DD0000;
+    color: white;
+}
 
 .menu-button:hover {
     background-color: #DD0000;
